@@ -1,0 +1,6 @@
+temp
+ignore
+*.deb
+*.build
+*.changes
+
