@@ -8,8 +8,7 @@ software de desarrollo electrónico suele ser necesario versiones más nuevas
 (por soporte de hardware o nuevas prestaciones convenientes).
 Otras veces, nuevamente en desarrollo electrónico, ni siquiera están
 empaquetadas (muy nuevas o con componentes no libres).
-En este repo hay paquetes de software que solemos utilizar en el grupo de
-desarrollo con FPGAs, donde utilizamos Debian GNU/Linux.
+En este repo hay paquetes de software que suelo utilizar.
 
 (Re)empaquetamiento Debian
 ==========================
