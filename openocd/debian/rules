@@ -59,7 +59,7 @@ endif
 
 post-patches::
 	@# Copy udev rules file into debian/ so that dh_installudev finds it.
-	cp contrib/99-openocd.rules debian/openocd.udev
+	cp contrib/60-openocd.rules debian/openocd.udev
 
 binary-install/openocd::
 	# Install the loaders/ subdir in /usr/share/doc.
@@ -67,7 +67,7 @@ binary-install/openocd::
 
 binary-post-install/openocd::
 	@# Don't ship openocd.udev in /usr/share, dh_installudev handles it.
-	rm -f debian/openocd/usr/share/openocd/contrib/99-openocd.rules
+	rm -f debian/openocd/usr/share/openocd/contrib/60-openocd.rules
 	@# Drop /usr/share/info/dir, it's generated at runtime.
 	rm -f debian/openocd/usr/share/info/dir
 	@# Drop .la files
