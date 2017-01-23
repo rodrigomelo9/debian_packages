@@ -12,10 +12,10 @@ version:
 	dch --local $(VENDOR)
 
 update:
-	git submodule update --init; cd openocd; ./bootstrap
+	@git submodule update --init; cd openocd; git checkout master; git pull; ./bootstrap
 
 prepare: update
-	rm -fr $(ODIR); mkdir $(ODIR); cp -r openocd/* $(ODIR); cp -r debian $(ODIR)
+	rm -fr $(ODIR); mkdir $(ODIR); cp -r openocd/* $(ODIR); cp -r debian $(ODIR); cp -r custom/* $(ODIR)
 
 package: prepare
 	cd $(ODIR); debuild -us -uc -b
@@ -26,5 +26,5 @@ old: package
 
 clean:
 	rm -fr $(ODIR)
-	rm openocd_*
+	rm -fr openocd_*
 
