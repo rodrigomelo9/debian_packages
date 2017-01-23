@@ -1,7 +1,6 @@
 by RAM
 
-Repositorio del paquete Openocd para Debian
-===========================================
+# Paquete Openocd
 
 La versión estable para Debian suele estar muy desactualizado para lo que se
 suele necesitar. Además no es raro tener que customizar algún archivo de
@@ -14,8 +13,7 @@ custom:  archivos nuevos o modificados que no están en el repositorio oficial.
          Idealmente debería estar vacío (todo aportado e incluido en el
          mainstream).
 
-Armar paquete
--------------
+## Armar paquete
 
 Para que pida log de nueva versión:
 $ make new
@@ -23,8 +21,7 @@ $ make new
 Para generar el paquete sin cambiar log:
 $ make old
 
-Aportes
-=======
+## Aportes
 
 Parches subidos mediante gerrit de openocd:
 
