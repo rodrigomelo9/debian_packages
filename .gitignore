@@ -1,6 +1,5 @@
 temp
 ignore
 *.deb
-*.build
+*.build*
 *.changes
-

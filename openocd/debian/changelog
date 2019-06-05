@@ -1,8 +1,9 @@
-openocd (0.10.0~cmnb-hdl-1) UNRELEASED; urgency=medium
+openocd (0.10.0~mnt-hdl-1) UNRELEASED; urgency=medium
 
   * new upstream stable release
+  * Packaged for Debian 9
 
- -- Rodrigo Alejandro Melo <rodrigomelo9@gmail.com>  Mon, 23 Jan 2017 12:03:02 -0300
+ -- Rodrigo Alejandro Melo <rodrigomelo9@gmail.com>  Wed, 05 Jun 2019 10:51:34 -0300
 
 openocd (0.9.0-1) unstable; urgency=medium
 

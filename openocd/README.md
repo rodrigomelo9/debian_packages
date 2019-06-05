@@ -16,10 +16,14 @@ custom:  archivos nuevos o modificados que no están en el repositorio oficial.
 ## Armar paquete
 
 Para que pida log de nueva versión:
+```
 $ make new
+```
 
 Para generar el paquete sin cambiar log:
+```
 $ make old
+```
 
 ## Aportes
 
